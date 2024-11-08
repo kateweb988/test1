@@ -3564,8 +3564,10 @@ section.main_in {
     .advantages__new_item p {
         margin-left: 13px;
     }
-    .advantages__new_item .svg-icon {
-        width: 40px !important;
+    .advantages__new_item i {
+        width: 40px;
+        -webkit-background-size: contain;
+        background-size: contain;
     }
     .projectsNew__name {
         font-size: 18px;
