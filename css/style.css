@@ -3004,6 +3004,7 @@ section.main_in {
 .projectsNew__item > a, .projectsNew__item > a picture {
     display: block;
     width: max-content;
+    max-width: 100%;
     height: max-content;
 }
 .projectsNew__item:nth-child(3n) {
@@ -3014,6 +3015,7 @@ section.main_in {
     display: block;
     object-fit: cover;
     height: 284.85px;
+    max-width: 100%;
 }
 .projectsNew__name {
     margin-bottom: 10px;
